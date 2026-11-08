@@ -1,0 +1,14 @@
+{
+  "name": "personal-ai-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "한국어 음성 기반 개인 AI 비서 Windows 시제품",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "check": "node --check main.js && node --check preload.js && node --check src/renderer.js"
+  },
+  "devDependencies": {
+    "electron": "^37.2.0"
+  }
+}

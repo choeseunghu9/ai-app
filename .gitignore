@@ -1,0 +1,12 @@
+node_modules/
+dist/
+release/
+.env*
+!.env.example
+data/
+user-data/
+config.local.*
+personal-ai-data*.json
+*.log
+npm-debug.log*
+pnpm-debug.log*
